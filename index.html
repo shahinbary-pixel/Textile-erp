@@ -135,7 +135,13 @@
                 const userEmail = currentUser ? currentUser.email : "N/A";
                 contentArea.innerHTML = `<h1>ইউজার প্রোফাইল</h1><p><strong>লগইন করা ইমেইল:</strong> ${userEmail}</p>`;
             }
-        }
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log('Service Worker Registered Successfully'));
+  }
+</script>
+     }
     </script>
 </body>
 </html>
