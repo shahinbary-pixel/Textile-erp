@@ -6,6 +6,13 @@
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "description": "Textile ERP Management System",
+  "screenshots": [
+    {
+      "src": "/images/screenshot.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
   "icons": [
     {
       "src": "/icon-192.png",
